@@ -5,12 +5,9 @@ import streamlit as st
 GOOGLE_SCRIPT_URL = ("https://script.google.com/macros/s/YOUR_ACTUAL_DEPLOYED_WEB_APP_URL/exec")
 
 DEFAULT_ASIA_COUNTRIES = [
-    "Pakistan",
-    "Brunei",
-    "Laos",
-    "Thailand",
     "Vietnam",
     "Indonesia",
+    "Thailand",
     "Malaysia",
     "Philippines",
     "Singapore",
@@ -18,6 +15,9 @@ DEFAULT_ASIA_COUNTRIES = [
     "Taiwan",
     "Myanmar",
     "Cambodia",
+    "Laos",
+    "Pakistan",
+    "Brunei",
 ]
 
 st.set_page_config(
