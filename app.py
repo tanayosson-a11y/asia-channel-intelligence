@@ -2,7 +2,7 @@ import json
 import requests
 import streamlit as st
 
-GOOGLE_SCRIPT_URL = ("https://script.google.com/macros/s/YOUR_REAL_DEPLOYED_ID_HERE/exec")
+GOOGLE_SCRIPT_URL = "YOUR_GOOGLE_APPS_SCRIPT_WEB_APP_URL_HERE"
 
 DEFAULT_ASIA_COUNTRIES = [
     "China",
