@@ -2,7 +2,7 @@ import json
 import requests
 import streamlit as st
 
-GOOGLE_SCRIPT_URL = ("https://script.google.com/macros/s/YOUR_ACTUAL_DEPLOYED_WEB_APP_URL/exec")
+GOOGLE_SCRIPT_URL = ("https://script.google.com/macros/s/AKfycbyq6eeltu92qxTflIt-BWamPw2ev2FzZOj5j7qiMrj3lHYyyBNArf1zmLF0g2PDuS3-Jg/exec")
 
 DEFAULT_ASIA_COUNTRIES = [
     "Vietnam",
