@@ -18,8 +18,6 @@ DEFAULT_ASIA_COUNTRIES = [
     "Taiwan",
     "Myanmar",
     "Cambodia",
-    "Laos",
-    "Brunei",
 ]
 
 st.set_page_config(
@@ -265,7 +263,7 @@ with tab4:
               investment_usd,
               cost_cat,
               roi,
-5              owner,
+              owner,
               str(target_date),
               priority,
               support_req,
