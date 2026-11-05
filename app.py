@@ -76,9 +76,13 @@ with tab2:
     pcr_model = st.selectbox(
         "PCR Main Channel Model",
         [
-            "Distributor / Dealer / Retail",
+            "Sole Distributor",
+            "Regional Distributor", 
+            "Dealer", 
+            "Multi-Brand Retail",
             "Wholesale Direct",
             "Retail Flagship",
+            "KA",
         ],
         key="pcr_m",
     )
@@ -98,8 +102,10 @@ with tab2:
     tbr_model = st.selectbox(
         "TBR Main Channel Model",
         [
-            "Distributor / Fleet Dealer / Fleet Direct",
-            "Direct Fleet Service",
+            "Sole Distributor",
+            "Regioanl Distributor", 
+            "Dealer",
+            "KA",
         ],
         key="tbr_m",
     )
